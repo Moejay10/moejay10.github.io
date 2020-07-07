@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Project1</title>
+		<title>Project6</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -42,16 +42,18 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Classification & Regression<br />
+									<h1>Variational Monte Carlo<br />
 									</h1>
-									<p>In this project, both a logistic regression and a neural network is implemented with respect to a classification problem, where the data in question is the Wisconsin breast cancer. Later on, the neural network is also used to perform a regression on a data set generated from the Franke function. Throughout the report, all implemented methods are compared with alternatives provided in the Scikit-learn library. In addition, the regression case is also compared with standard regression methods such as ordinary least squares, ridge regression and lasso regression, all provided from a previous project 	<li><a href="https://github.com/Moejay10/FYS-STK4155/tree/master/project1"></a>Regression analysis</li>. For analyzing the quality of the models in classification, F1-scores and cumulative gain curves are utilized to determine the best performers. Our neural network proves to be the most accurate classifier, with an F1-score of 0.98, barely outperforming Scikit-learn with a score of 0.97.
-
-In comparison, the regression results paint a different picture with respect to the R2-score, where Scikit-learn's neural network comes out on top with a score of 0.96. Our neural network produces a score of 0.90, which is lower than the specialized regression algorithms, which all have scores above 0.90. In the end it is concluded that our own implementation of the neural network is the best model predicting the Wisconsin breast cancer data, and Scikit-learn's neural network is the better choice for the Franke function, as well as being the better all-round performer, with high scores for all tests.</p>
+									<p>In this piece of research we implement a variational Monte Carlo with both the brute force Metropolis and the Metropolis-Hastings algorithms for the purpose of simulating a Bose-Einstein condensation of a hard sphere Bose gas.
+We study both a non-interacting and interacting system with an external potential consisting of a spherical and elliptical harmonic oscillator, respectively.
+We find that the minimum energy for all tested number of particles 1, 10, 50, 100 and 500 are found with the variational parameter $\alpha = 0.5$, both in the non-interacting case and the interacting case. This does also include using the method gradient descent.
+Moreover, we also observe that having an analytical way of calculating the energy is a gift from the above, which makes the program run much faster, compared to using a numerical approach to calculating the energy.
+The brute force Metropolis and Metropolis-Hastings algorithms exhibit a difference in the behaviour of the acceptance rate for the proposed moves in the variational Monte Carlo simulation. The final part was dedicated to studying the one-body density of a 10-particle system, where the interacting case of the one-body density moved to a larger radii compared to the non-interacting one. However, the difference is not significantly between the cases. We receive this set-back with humility and grace, leaving the study and implementation of stronger programs up to future articles on this matter.</p>
 								</header>
 								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
 								<p>For more information about this project, its report can be found on the link below. <p>
 								<ul class="links">
-									<li class="active"><a href="https://github.com/Moejay10/FYS-STK4155/tree/master/project2" class="button">Check it out</a></li>
+									<li class="active"><a href="https://github.com/Moejay10/FYS4411/tree/master/Project1" class="button">Check it out</a></li>
 								</ul>
 							</section>
 
