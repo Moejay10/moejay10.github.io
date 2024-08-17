@@ -149,7 +149,7 @@ function App() {
           >
             <h1>Welcome.</h1>
             <p>
-              I'm Steinn - a passionate professional in data science and machine
+              I'm Mohamed - a passionate professional in data science and machine
               learning. I'm a capable software engineer and backend developer,
               and I've recently spent a lot of my free time learning frontend
               development tools like React and Typescript. This webpage
