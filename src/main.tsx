@@ -5,7 +5,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import About from "./About";
 import App from "./App";
 
-import SENECAbout from "./components/professions/Senec";
+import SENECAbout from "./components/professions/SopraSteria";
 import FutureReadyAbout from "./components/professions/FutureReady";
 import SINTEFAbout from "./components/professions/Sintef";
 import UiOAbout from "./components/professions/UiO";

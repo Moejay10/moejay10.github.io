@@ -88,9 +88,9 @@ function About() {
           <h2 style={{ marginBottom: "0" }}>
             For project inquiries feel free to contact me at:
           </h2>
-          hausersteinn@gmail.com
+          mohamed.sm.ismail@gmail.com
           <br />
-          (+49) 179 6047 257
+          (+47) 40 21 62 37 
         </div>
       </MPSection>
     </Body>

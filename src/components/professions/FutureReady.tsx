@@ -64,10 +64,10 @@ function FutureReadyAbout() {
             padding: "10vw 10vh",
           }}
         >
-          <h1>Senior Data Scientist</h1>
-          Future Ready AS
+          <h1>Data Engineer</h1>
+          Sopra Steria
           <br />
-          January 2022 - February 2023
+          August 2023 - Present
           <br />
           <b>Responsibilities:</b>
           <ul style={{ marginTop: "5px" }}>
@@ -95,10 +95,10 @@ function FutureReadyAbout() {
               team members.
             </li>
           </ul>
-          <h1>Data Scientist</h1>
+          <h1>Junior Data Scientist</h1>
           Future Ready AS
           <br />
-          November 2020 - December 2021
+          November 2020 - June 2021
           <br />
           <b>Responsibilities:</b>
           <ul style={{ marginTop: "5px" }}>

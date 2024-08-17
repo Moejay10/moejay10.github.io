@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {
   GithubSVG,
   LinkedInSVG,
-  StackOverflowSVG,
 } from "./animations/SvgCurves";
 
 import config from "./components/Config";
@@ -49,17 +48,11 @@ function TopNav() {
           <NavLink to={"/about"}>
             <h2 style={{ margin: 0, color: "white" }}>About Me</h2>
           </NavLink>
-          <a target="_blank" href="https://github.com/steinnhauser/">
+          <a target="_blank" href="https://github.com/moejay10/">
             <GithubSVG color={"#ffffff"} />
           </a>
-          <a target="_blank" href="https://linkedin.com/in/steinnhauser/">
+          <a target="_blank" href="https://linkedin.com/in/mohamed/">
             <LinkedInSVG color={"#ffffff"} />
-          </a>
-          <a
-            target="_blank"
-            href="https://stackoverflow.com/users/13819183/steinn-hauser-magnusson/"
-          >
-            <StackOverflowSVG color={"#ffffff"} />
           </a>
         </div>
       </LinkContainer>

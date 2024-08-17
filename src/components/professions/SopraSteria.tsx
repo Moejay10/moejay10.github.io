@@ -64,10 +64,10 @@ function SENECAbout() {
             padding: "10vw 10vh",
           }}
         >
-          <h1>Software Developer</h1>
-          SENEC GmbH
+          <h1>Data Engineer</h1>
+          Sopra Steria
           <br />
-          March 2023 - Present
+          August 2023 - Present
           <br />
           <b>Responsibilities:</b>
           <ul style={{ marginTop: "5px" }}>
