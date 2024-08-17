@@ -300,7 +300,7 @@ function App() {
 
       <MPFooter>
         Made using Vite+React+TS+SWC.
-        <br /> Steinn Magnússon 2023.
+        <br /> Mohamed Ismail 2024.
       </MPFooter>
     </Body>
   );
